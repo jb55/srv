@@ -1,6 +1,6 @@
 
 var list = require('./services/list');
-var server = list.server({ listing: './list' });
+var server = list.server({ listing: './listing' });
 var port = process.argv[2] || 31313;
 
 server.listen(port, function() {
@@ -8,5 +8,4 @@ server.listen(port, function() {
     console.log(msg);
   });
   console.log("list server listening on " + port);
-
 });

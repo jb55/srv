@@ -1,0 +1,19 @@
+{
+  "name": "srv",
+  "description": "Micro protocols via srv records",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/jb55/srv.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "dependencies": {
+    "optimist": "*",
+    "jsonparse": "*"
+  },
+  "devDependencies": {
+    "tap": "~0.2.5"
+  }
+}
