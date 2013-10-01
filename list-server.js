@@ -1,5 +1,5 @@
 
-var list = require('./services/list');
+var list = require('./lib/services/list');
 var server = list.server({ listing: './listing' });
 var port = process.argv[2] || 31313;
 
